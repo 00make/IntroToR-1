@@ -49,5 +49,5 @@ equation editorEquation Editor
 z = 
 equation editorEquation Editor
 (d)  to its right is 0.2095
-z = 
+z = qnorm(1-0.2095)
 equation editorEquation Editor
