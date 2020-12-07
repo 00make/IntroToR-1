@@ -123,10 +123,7 @@ C(4,2)
 
 400/sqrt(3)
 
-<<<<<<< Updated upstream
 Problem 9
 A civil engineering model for W, the weight (in units of 1000 pounds) that a span of a bridge can withstand without sustaining structural damage is normally distributed. Suppose that for a certain span W∼N(500,502). Suppose further that the weight of cars traveling on the bridge is a random variable with mean 3.5 and standard deviation 0.35. Approximately how many cars would have to be on the bridge span simultaneously to have a probability of structural damage that exceeded 0.1?
 round((qnorm(0.1)*50+500)/3.5,20)
 Approximately cars (round to an integer number).
-=======
->>>>>>> Stashed changes
