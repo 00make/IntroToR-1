@@ -2,7 +2,7 @@
 title: "R Structures"
 output: html_notebook
 editor_options: 
-  chunk_output_type: inline
+chunk_output_type: inline
 ---
 
 ## Arithmetic and algebra
@@ -18,7 +18,7 @@ Let's start with the same arithmetic we were just doing in the Console. Notice t
 
 Try executing this chunk by clicking the green *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. These two actions do the same thing-- they run all the lines of code in a chunk, and show you all the output.
 
-You can also run just one line at a time by putting your cursor on a line and pressing *Cmd+Enter*. Then, you'll just see the output for the one line. 
+You can also run just one line at a time by putting your cursor on a line and pressing *Cmd+Enter*. Then, you'll just see the output for the one line.
 
 We can do the same with the algebra we just saw,
 
@@ -30,16 +30,15 @@ A <- 3
 a + b - A
 ```
 
-## Functions 
+## Functions
 
 ```{r}
 round(3.1415)
-factorial(3)
+factorial()
 sqrt(9)
 
 factorial(round(2.0015) + 1)
 ```
-
 
 ```{r}
 the_answer <- 42
@@ -47,11 +46,11 @@ more_pi <- round(3.1415) + 1
 factorial(more_pi)
 ```
 
-What happened in your Environment when you ran that code? 
+What happened in your Environment when you ran that code?
 
 ## "knitted" HTML version
 
-This functionality is supported by an R package called `knitr`, so we often talk about "knitted" versions of RMarkdown and R Notebook documents. 
+This functionality is supported by an R package called `knitr`, so we often talk about `knitted` versions of RMarkdown and R Notebook documents.
 
 When you save the notebook, an HTML file containing the code and output will be saved alongside it. This makes a nice, polished report of your work to share.
 
@@ -59,5 +58,4 @@ Click the *Preview* button at the top of this document or press *Cmd+Shift+K* (*
 
 ## More on Notebooks
 
-We'll be covering many more details about notebooks as we progress, but ask a TA if you have pressing questions right now. 
-
+We'll be covering many more details about notebooks as we progress, but ask a TA if you have pressing questions right now.
