@@ -40,7 +40,7 @@ n=(t*s*1)^2
 print(n)
 
 
-5
+4
 confidence_interval = 0.95
 X=0.5
 t = qnorm(0.5+confidence_interval/2)

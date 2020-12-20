@@ -68,7 +68,7 @@ Probability = pnorm(49, 45, 8) - pnorm(40, 45, 8)
 
 # Problem 5
 (1 point) A soft drink bottler purchases glass bottles from a vendor. The bottles are required to have an internal pressure of at least 150 pounds per square inch(psi) . A prospective bottle vendor claims that its production process yields bottles with a mean internal pressure of 157 psi and a standard deviation of 3 psi. The bottler strikes an agreement with the vendor that permits the bottler to sample from the production process to verify the claim. the bottler randomly selects 50 bottles from the last 10000 produced, measures the internal pressure of each, and finds the mean pressure for
-  the sample to be 0.8 psi below the process mean cited by the vendor.
+the sample to be 0.8 psi below the process mean cited by the vendor.
 
 (a) Assuming that the vendor is correct in his claim, what is the probability of obtaining a sample mean this far or farther below the process mean ?
 pnorm(157 - 0.8, 157, 3 / sqrt(50))
